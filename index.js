@@ -319,4 +319,5 @@ filterIncomplete.addEventListener('click',()=>{
 
 function showMessage(){
     todoList.innerHTML="Woah Nothing Here!";
+    updateTaskCount(0);
 }
